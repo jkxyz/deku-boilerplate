@@ -9,7 +9,7 @@ node_modules:
 ##
 # Compile the main JavaScript file to the output file using Browserify
 build.js: node_modules src/*.js
-	node_modules/browserify/bin/cmd.js -t babelify src/main.js > build.js
+	node_modules/browserify/bin/cmd.js -t babelify --debug src/main.js > build.js
 
 ##
 # The default task: run a web server in the current directory using Python
