@@ -10,3 +10,8 @@ Browserify and Babelify to compile JSX and ES6 to ES5 JavaScript.
 The default task installs the NPM modules to be used, compiles the `src/main.js` 
 file to `build.js` using the Babelify transform, and starts a web server at 
 `localhost:8080` using a built-in Python web server module.
+
+## License
+
+I dedicate all present and future copyright interest in this software to the 
+public domain.
